@@ -27,11 +27,7 @@ const Play = () => {
         </audio>
 
         <div className="img_container">
-          <img 
-            src="https://images.unsplash.com/photo-1485579149621-3123dd979885?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG11c2ljfGVufDB8fDB8fHww" 
-            id="cover" 
-            alt="Music Cover"
-          />
+          <img src="https://images.unsplash.com/photo-1485579149621-3123dd979885?w=500&auto=format&fit=crop&q=60" id="cover" alt="Music Cover" />
         </div>
         <div className="navigation">
           <button id="prev" className="action-btn">

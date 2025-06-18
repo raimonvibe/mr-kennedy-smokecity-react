@@ -51,6 +51,27 @@
   width: 100%;
 }
 
+/* Contact page specific fixes - preserve flexbox centering */
+.contact-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #000;
+  position: relative;
+}
+
+/* Override App wrapper for contact page */
+.App:has(.contact-page) {
+  background-color: #000;
+  min-height: 100vh;
+}
+
+/* Ensure body has black background for contact page */
+body:has(.contact-page) {
+  background-color: #000 !important;
+}
+
 /* Ensure proper box-sizing for all elements */
 * {
   box-sizing: border-box;
