@@ -15,7 +15,28 @@
   min-height: 100vh;
 }
 
-/* Fix cover section for React structure */
+/* Contact page specific fixes - preserve flexbox centering */
+.contact-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #000;
+  position: relative;
+}
+
+/* Override App wrapper for contact page */
+.App:has(.contact-page) {
+  background-color: #000;
+  min-height: 100vh;
+}
+
+/* Ensure body has black background for contact page */
+body:has(.contact-page) {
+  background-color: #000 !important;
+}
+
+/* Homepage-specific fixes - only apply to pages with .cover class */
 .cover {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-size: cover;
@@ -25,8 +46,8 @@
   position: relative;
 }
 
-/* Fix music navigation positioning */
-.music {
+/* Fix music navigation positioning - only for homepage */
+.cover .music {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,15 +56,15 @@
   width: 100%;
 }
 
-/* Fix search positioning */
-.search {
+/* Fix search positioning - only for homepage */
+.cover .search {
   position: relative;
   text-align: center;
   margin-top: -20px;
 }
 
-/* Fix explore section positioning */
-.explore {
+/* Fix explore section positioning - only for homepage */
+.cover .explore {
   text-align: center;
   margin-top: 130px;
   color: #fff;
