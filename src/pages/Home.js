@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import '../styles/SmokeCity.css';
@@ -18,8 +19,8 @@ const Home = () => {
           <h1 id="world">Explore the World Of Music With <span id="city">SmokeCity Music.</span></h1>
           <p id="stars">SmokeCity Music has been built to <br />help rising stars from allover the world who are 
           incapable to bring <br />there sound out to the world due to circumstances.</p>
-          <a href="/login"><button>Log In</button></a>
-          <a href="/signup"><button>Sign Up</button></a>
+          <Link to="/login"><button>Log In</button></Link>
+          <Link to="/signup"><button>Sign Up</button></Link>
         </div>
       </div>
       
