@@ -78,6 +78,26 @@ nav ul li a{
 	background-color: #fff;
 	transition: .2s;
 }
+.button-section {
+	text-align: center;
+	margin-top: 20px;
+	padding: 20px 0;
+}
+.button-section button {
+	padding: 15px 29px;
+	font-size: 17.8px;
+	line-height: 25px;
+	border-radius: 25px;
+	border-style: none;
+	background-color: gold;
+	color: #000;
+	margin: 15px 9px;
+	font-family: aktiv-grostesk,sans-serif;
+}
+.button-section button:hover {
+	background-color: #fff;
+	transition: .2s;
+}
 #city{
 	color: gold;
 }

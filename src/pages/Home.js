@@ -26,9 +26,11 @@ const Home = () => {
           <h1 id="world">Explore the World Of Music With <span id="city">SmokeCity Music.</span></h1>
           <p id="stars">SmokeCity Music has been built to <br />help rising stars from allover the world who are 
           incapable to bring <br />there sound out to the world due to circumstances.</p>
-          <Link to="/login"><button>Log In</button></Link>
-          <Link to="/signup"><button>Sign Up</button></Link>
         </div>
+      </div>
+      <div className="button-section">
+        <Link to="/login"><button>Log In</button></Link>
+        <Link to="/signup"><button>Sign Up</button></Link>
       </div>
       <div className="upload">
         <div className="sell">
