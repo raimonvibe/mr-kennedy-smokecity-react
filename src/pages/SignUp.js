@@ -4,7 +4,7 @@ import '../styles/signup.css';
 
 const SignUp = () => {
   return (
-    <div>
+    <div className="signup-page">
       <div className="display">
         <nav>
           <ul>
