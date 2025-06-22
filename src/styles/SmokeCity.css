@@ -1,18 +1,6 @@
 *{
 	margin: 0;
 }
-.music nav{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 11.2px 16px;
-}
-.music nav ul{
-	display: flex;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
 .cover{
 	background-color:#000;
 	height: 521px;
@@ -20,25 +8,42 @@
 	clip-path: polygon(0 0, 100% 0, 100% 87.3%, 0 100%);
 }
 .music nav ul li{
-	margin-left: 17px;
+	display: inline-block;
+	flex-direction: row;
+	float: right;
+	justify-content: space-between;
+	margin-right: 17px;
+	margin-top: 11.2px;
 	font-size: 16.5px;
-	font-family:aktiv-grostesk,sans-serif;
+	font-family:aktiv-grostesk,sans-serif;;
 	color: #fff;
 }
 .music nav ul li:hover{
 	transition: .1s;
 }
-nav ul li a{
+/* nav ul li a{
 	color: #000;
 	list-style: none;
 	background-color: gold;
 	padding: 10px 7px 10px 7px;
 	border-radius: 30px;
 	font-family:aktiv-grostesk,sans-serif;
+} */
+
+nav ul li a,
+nav ul li .link {
+	color: #000;
+	list-style: none;
+	background-color: gold;
+	padding: 10px 7px 10px 7px;
+	border-radius: 30px;
+	font-family:aktiv-grostesk,sans-serif;
+	display: inline-block;
 }
+
 .logo{
 	font-size: 28px;
-	font-family:;
+	font-family: ktiv-grostesk,sans-serif;
 	padding:0 16px;
 	color: #fff;
 }
@@ -216,4 +221,52 @@ nav ul li a{
 }
 .Account:hover{
 	background-color: #fff;
+}
+
+/* Minimal React layout fixes - only essential positioning */
+
+/* Reset for React wrapper elements */
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Fix music navigation positioning */
+.music {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  position: relative;
+  width: 100%;
+}
+
+/* Fix search positioning */
+.search {
+  position: relative;
+  text-align: center;
+  margin-top: -20px;
+}
+
+/* Fix explore section positioning */
+.explore {
+  text-align: center;
+  margin-top: 130px;
+  color: #fff;
+  position: relative;
+  width: 100%;
+}
+
+/* Ensure proper box-sizing for all elements */
+* {
+  box-sizing: border-box;
 }
