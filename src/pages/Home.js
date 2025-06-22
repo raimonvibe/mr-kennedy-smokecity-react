@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/SmokeCity.css';
-import '../styles/ReactLayout.css';
 
 const Home = () => {
   return (
