@@ -9,13 +9,13 @@ const Home = () => {
       <div className="cover">
         <div className="music">
           <nav>
-            <ul>
-              <li><Link to="/play">Play</Link></li>
-              <li><Link to="/contact">Contact</Link></li>
-              <li><Link to="/genre">Genre</Link></li>
-              <li><Link to="/about">About</Link></li>
-            </ul>
             <h2 className="logo">S<span id="gold">M</span>C</h2>
+            <ul>
+              <li><Link to="/about">About</Link></li>
+              <li><Link to="/genre">Genre</Link></li>
+              <li><Link to="/contact">Contact</Link></li>
+              <li><Link to="/play">Play</Link></li>
+            </ul>
           </nav>
           <form className="search">
             <i className="fa fa-search" aria-hidden="true" id="gray"></i>
@@ -26,9 +26,11 @@ const Home = () => {
           <h1 id="world">Explore the World Of Music With <span id="city">SmokeCity Music.</span></h1>
           <p id="stars">SmokeCity Music has been built to <br />help rising stars from allover the world who are 
           incapable to bring <br />there sound out to the world due to circumstances.</p>
-          <Link to="/login"><button>Log In</button></Link>
-          <Link to="/signup"><button>Sign Up</button></Link>
         </div>
+      </div>
+      <div className="button-section">
+        <Link to="/login"><button>Log In</button></Link>
+        <Link to="/signup"><button>Sign Up</button></Link>
       </div>
       <div className="upload">
         <div className="sell">
