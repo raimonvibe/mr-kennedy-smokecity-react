@@ -6,7 +6,7 @@
     }
 
     body {
-      background: #f0f2f5;
+      background: #000000;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -17,7 +17,7 @@
   top: 0;
   right: 0;
   width: 130px; /* adjust width as needed */
-  background-color: #f0f0f0; /* optional for visibility */
+  background-color: transparent; /* optional for visibility */
   padding: 10px 5px 10px 5px;
 }
 .display a {
