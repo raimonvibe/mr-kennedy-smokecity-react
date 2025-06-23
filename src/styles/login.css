@@ -1,9 +1,10 @@
-body {
+.login-page {
  display: flex;
   justify-content: center;  
  align-items: center;
-  height: 100vh;
-  background: linear-gradient(135deg, #000 0%, #001 100%);
+  min-height: 100vh;
+  position: relative;
+  background: #000000;
   font-family: aktiv-grostesk,sans-serif;
 }
 .display {
