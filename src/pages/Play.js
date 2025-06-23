@@ -4,7 +4,7 @@ import '../styles/play.css';
 
 const Play = () => {
   return (
-    <div>
+    <div className="play-page">
       <div className="display">
         <nav>
           <ul>
