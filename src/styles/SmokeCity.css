@@ -3,7 +3,7 @@
 }
 .cover{
 	background-color:#000;
-	height: 521px;
+	height: 750px;
 	background-size: contain;
 	clip-path: polygon(0 0, 100% 0, 100% 87.3%, 0 100%);
 }
