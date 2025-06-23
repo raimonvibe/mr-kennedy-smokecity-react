@@ -4,7 +4,7 @@ import '../styles/about.css';
 
 const About = () => {
   return (
-    <div>
+    <div style={{backgroundColor: '#000000', minHeight: '100vh'}}>
       <nav>
         <ul>
           <li><Link to="/">Home</Link></li>
