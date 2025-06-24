@@ -72,8 +72,8 @@
     .submit-btn {
       width: 100%;
       padding: 0.75rem;
-      background-color: #007bff;
-      color: white;
+      background-color: gold;
+      color: #000;
       border: none;
       border-radius: 8px;
       cursor: pointer;
@@ -82,7 +82,8 @@
     }
 
     .submit-btn:hover {
-      background-color: #0056b3;
+      background-color: #fff;
+      transition: .2s;
     }
 
     .signin-link {
@@ -92,7 +93,7 @@
     }
 
     .signin-link a {
-      color: #007bff;
+      color: gold;
       text-decoration: none;
     }
 
