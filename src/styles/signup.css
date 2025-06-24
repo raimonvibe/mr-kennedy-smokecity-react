@@ -7,30 +7,37 @@
 
     body {
       background: #000000;
+    }
+
+    .signup-page {
+      background: #000000;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      min-height: 100vh;
     }
+
 .display {
   position: absolute;
   top: 0;
   right: 0;
-  width: 130px; /* adjust width as needed */
-  background-color: transparent; /* optional for visibility */
+  width: 130px;
+  background-color: transparent;
   padding: 10px 5px 10px 5px;
 }
+
 .display a {
     color: #000;
-   text-decoration: none; /* Optional: removes underline */
+   text-decoration: none;
   }
+
     .signup-container {
       background-color: #ffffff;
       padding: 2rem 3rem;
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      width: 100%;
       max-width: 400px;
+      margin: 0 auto;
     }
 
     .signup-container h2 {

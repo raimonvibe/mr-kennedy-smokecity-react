@@ -4,7 +4,7 @@ import '../styles/signup.css';
 
 const SignUp = () => {
   return (
-    <div style={{backgroundColor: '#000000', minHeight: '100vh'}}>
+    <div className="signup-page">
       <div className="display">
         <nav>
           <ul>
