@@ -4,7 +4,7 @@ import '../styles/genre.css';
 
 const Genre = () => {
   return (
-    <div>
+    <div style={{backgroundColor: '#000000', minHeight: '100vh'}}>
       <div className="display">
         <nav>
           <ul>
@@ -12,7 +12,7 @@ const Genre = () => {
           </ul>
         </nav>
       </div>
-      
+
       <section className="genres-section">
         <h1>Explore Music Genres</h1>
         <div className="genres-container">
