@@ -6,10 +6,20 @@ body {
   margin: 0;
   padding: 0;
 }
-nav ul li{
-  display: inline-flex;
-  justify-content: space-around;
-  margin-left: 50px;
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  gap: 30px;
+}
+
+nav ul li {
+  margin: 0;
+
+
 }
 .container {
   max-width: 900px;
