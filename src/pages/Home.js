@@ -7,19 +7,21 @@ const Home = () => {
     <div>
       <div className="cover">
         <div className="music">
-          <nav>
+          <div className="nav-container">
             <h2 className="logo">S<span id="gold">M</span>C</h2>
-            <ul>
-              <li><Link to="/about">About</Link></li>
-              <li><Link to="/genre">Genre</Link></li>
-              <li><Link to="/contact">Contact</Link></li>
-              <li><Link to="/play">Play</Link></li>
-            </ul>
-          </nav>
-          <form className="search">
-            <i className="fa fa-search" aria-hidden="true" id="gray"></i>
-            <input type="search" placeholder="search name of artist,albums and songs" id="place" />
-          </form>
+            <form className="search">
+              <i className="fa fa-search" aria-hidden="true" id="gray"></i>
+              <input type="search" placeholder="search name of artist,albums and songs" id="place" />
+            </form>
+            <nav>
+              <ul>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="/genre">Genre</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/play">Play</Link></li>
+              </ul>
+            </nav>
+          </div>
         </div>
         <div className="explore">
           <h1 id="world">Explore the World Of Music With <span id="city">SmokeCity Music.</span></h1>
