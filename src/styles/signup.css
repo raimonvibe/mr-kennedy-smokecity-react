@@ -1,21 +1,12 @@
- * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Segoe UI', sans-serif;
-    }
-
-    body {
-      background: #000000;
-    }
-
-    .signup-page {
-      background: #000000;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-    }
+.signup-page {
+ display: flex;
+  justify-content: center;  
+ align-items: center;
+  min-height: 100vh;
+  position: relative;
+  background: #000000;
+  font-family: aktiv-grostesk,sans-serif;
+}
 
 .display {
   position: absolute;
@@ -32,13 +23,12 @@
   }
 
     .signup-container {
-      background-color: #ffffff;
+      background-color: white;
       padding: 40px;
       border-radius: 10px;
       box-shadow: 0 8px 16px rgba(0,0,0,0.2);
       width: 100%;
       max-width: 400px;
-      margin: 0 auto;
     }
 
     .signup-container h2 {
